@@ -1,40 +1,17 @@
 body {
-    background-color:black;}
-div{
-    background-color: white;
-    border-radius: 25px;
-    margin: auto;
-    width: 30%;
-    padding: 10px;}
+    background-color:black;font-family:arial;color:white
+}
 h1{
-    color:grey;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 300%;
+    color:grey;font-family:verdana
 }
-
-.container {
-    display: table;
-    width: 70%;
+.maindiv {
+    background-color:white;
+    color:black;
+    width:500px;
+    padding:20px;
+    border-radius:25px;
+    margin: auto;
 }
-  
-label {
-    display: table-cell;
-    width: 100px;
-    white-space: nowrap;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-  
-span {
-    display: table-cell;
-    padding: 0 4px 0 6px;
-}
-  
-input {
-    width: 75%;
-}
-
-button{
-    margin-left: 20px;
+#HL{
+    background-color: yellow;
 }
